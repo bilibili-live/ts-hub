@@ -1,0 +1,24 @@
+{
+  "name": "ts-hub",
+  "version": "1.0.0",
+  "description": "typescript github api",
+  "main": "index.js",
+  "scripts": {
+    "xo": "node dist/hub.js",
+    "start:watch": "tsc --watch",
+    "start": "tsc && node dist"
+  },
+  "keywords": [
+    "github"
+  ],
+  "author": "d1y",
+  "license": "MIT",
+  "dependencies": {
+    "@types/table": "^4.0.7",
+    "conf": "^6.2.0",
+    "got": "^9.6.0"
+  },
+  "devDependencies": {
+    "@types/got": "^9.6.9"
+  }
+}
