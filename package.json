@@ -1,8 +1,9 @@
 {
-  "name": "ts-hub",
+  "name": "tiny-hub",
   "version": "1.0.0",
   "description": "typescript github api",
   "main": "index.js",
+  "bin": "dist/hub.js",
   "scripts": {
     "xo": "node dist/hub.js",
     "start:watch": "tsc --watch",
@@ -14,7 +15,6 @@
   "author": "d1y",
   "license": "MIT",
   "dependencies": {
-    "@types/table": "^4.0.7",
     "conf": "^6.2.0",
     "got": "^9.6.0"
   },
