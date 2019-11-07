@@ -57,3 +57,15 @@ npm i -g typescript
   }
 }
 ```
+
+使用 `got` 发送请求, 在使用 `conf` 来存取数据
+
+----
+
+
+具体实现看代码, 尝鲜看下方:
+
+```bash
+cnpm i -g tiny-hub
+tiny-hub
+```
